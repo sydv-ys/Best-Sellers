@@ -1,0 +1,18 @@
+
+.book {
+  background: #ffffff;
+  text-align: center;
+  padding: 5rem;
+  border-radius: 1.5rem;
+
+}
+.book img {
+  width: 50%;
+  background: #000;
+}
+
+@media screen and (min-width: 768px) {
+  .book img {
+    width: 80%;
+  }
+}
